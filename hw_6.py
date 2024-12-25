@@ -1,6 +1,4 @@
-from json.decoder import PosInf
-
-
+#binerry search
 def binerry_search(a,val):
     N = len(a)
     ResultOk = False
@@ -26,7 +24,7 @@ topic =[1,2,3,4,5,6,7,8,9]
 number = 2
 binerry_search(topic,number)
 
-
+#buble sort
 def bubble_sort(human):
     for q in range(len(human) - 1):
         for m in range(len(human) - 1 - q):
